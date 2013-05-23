@@ -1,17 +1,17 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1369288464000 2154 48b1672053c9cf7b2a00f710aa513fd98f4f4e85 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/ResultActivity.class
+1369292217000 2204 d9051caa973d91d1b3388b56c13abc50992c52ac /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/ResultActivity.class
 1369287476000 436 98a762cc1cf860066ea9db38aeee0612bb6952dc /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$id.class
 1369284646000 1217 b499686306cfa9c65e3af2408d9f02a9e4f06c8c /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/MainActivity.class
-1369287476000 440 f5cc3c98e76c082bbed27427468aac26b9534215 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$style.class
+1369292217000 440 1df9645900806ec938a0320a2df1c659d6d39331 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$style.class
 1369279332000 416 04ebd213387433a5771cf2cc76ebc52aeb76f2b8 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$drawable.class
-1369287476000 707 cacf03ce501bad8ed815fa02d4dfbae23a6dd562 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R.class
+1369292217000 707 f9e7d6df3e51ec5654851e47ab35946306b81b21 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R.class
 1369287476000 496 86f9fd504754c21fcec4bf6e104ee6acfbed1f85 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$layout.class
 1369279309000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/libs/android-support-v4.jar
 1369279332000 470 7e1bc226c31a2ef4139fcace363dd07011d7967f /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$dimen.class
-1369287476000 2777 db5b2e1180c21065550aacb54b871abf529350ca /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/RecordRideActivity.class
+1369292217000 2779 2f2fdf40de80e6998adef76dc6ba997469c16249 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/RecordRideActivity.class
 1369287476000 397 1a442cf1f5fbe84d96953ec3d992421be7526130 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$menu.class
 1369279332000 349 c23cbea990b26ed7005b7ea81750288e07f64cc6 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$attr.class
-1369287476000 639 6c3f0d0a09ca181f5f4b51d7ea728d522cd61377 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$string.class
+1369292217000 742 a48990f3e75b7dee750524ec68afd1a76fbc3936 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/R$string.class
 1369279332000 351 6a266c4e2915acf07b0ed99d1919ad1d4e4f8885 /home/austin/Documents/AndroidStudioProjects/HowGnar/HowGnar/build/classes/debug/com/toxiccode/howgnar/BuildConfig.class
