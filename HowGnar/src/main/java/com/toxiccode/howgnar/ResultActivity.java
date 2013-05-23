@@ -27,7 +27,12 @@ public class ResultActivity extends Activity {
         long gnarness = intent.getLongExtra(RecordRideActivity.GNARNESS, 0);
         System.out.println("from results: " + gnarness);
         TextView scoreView = (TextView)findViewById(R.id.gnar_score);
-        scoreView.setText(""+gnarness);
+        if(gnarness < 5)
+            scoreView.setText(R.string.hella_gnar);
+        else if(gnarness < 10)
+            scoreView.setText(R.string.kinda_gnar);
+        else
+            scoreView.setText(R.string.full_roadie);
 
 
     }

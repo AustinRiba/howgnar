@@ -31,7 +31,7 @@ public class RecordRideActivity extends Activity {
             getActionBar().setDisplayHomeAsUpEnabled(true);
         }
         startCal = Calendar.getInstance();
-        gnars = 0;
+        gnars = 1;
 
         setContentView(R.layout.activity_record_ride);
     }
@@ -53,8 +53,9 @@ public class RecordRideActivity extends Activity {
 
     public void endRecord(View view){
         this.endCal = Calendar.getInstance();
-        long difference = (endCal.getTime().getTime()-startCal.getTime().getTime())/1000;
-        long gnarness = this.gnars / difference;
+        long difference = ((endCal.getTime().getTime()-startCal.getTime().getTime())/1000)+1;
+        long gnarness = difference/this.gnars;
+        //gnarness: lower is gnarlier
         System.out.println("difference: " + difference + "gnarness: " + gnarness);
         Intent intent = new Intent(this, ResultActivity.class);
         intent.putExtra(GNARNESS, gnarness);

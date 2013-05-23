@@ -11,5 +11,8 @@
     <string name="fake_accel">Fake Accelerometer</string>
     <string name="end_record">Finish Ride</string>
     <string name="your_score">Your Gnar Score is:</string>
+    <string name="hella_gnar">Hella Gnar</string>
+    <string name="kinda_gnar">Kinda Gnar</string>
+    <string name="full_roadie">Full Roadie</string>
 
 </resources>
