@@ -14,6 +14,7 @@
     <string name="how_gnar">How Gnar Can You Ride?</string>
     <string name="kinda_gnar">Kinda Gnar</string>
     <string name="recording">Recording ride...</string>
+    <string name="stationary">Stationary</string>
     <string name="your_score">Your Gnar Score is:</string>
 
     <style name="AppBaseTheme" parent="android:Theme">
