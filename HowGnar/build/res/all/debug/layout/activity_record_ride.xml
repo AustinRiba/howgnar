@@ -24,4 +24,12 @@
             android:layout_gravity="center" android:layout_marginTop="50dp"
             android:textSize="20sp"
             android:onClick="endRecord"/>
+
+    <TextView
+            android:id="@+id/gnar_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="60sp"
+            />
 </LinearLayout>
