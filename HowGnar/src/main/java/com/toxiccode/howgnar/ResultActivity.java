@@ -32,18 +32,26 @@ public class ResultActivity extends Activity {
         TextView scoreView = (TextView)findViewById(R.id.gnar_score);
         ImageView imageView = (ImageView)findViewById(R.id.gnar_image);
         if(gnarness >= 1){
+            scoreView.setText("So Pitted");
+            imageView.setImageResource(R.drawable.pitted);
+            mediaPlayer = MediaPlayer.create(this, R.raw.sopitted);
+            mediaPlayer.start();
+        }
+        else if(gnarness > 0.25){
             scoreView.setText(R.string.hella_gnar);
             imageView.setImageResource(R.drawable.hella);
             mediaPlayer = MediaPlayer.create(this, R.raw.hella);
             mediaPlayer.start();
         }
-        else if(gnarness > 0.25)
-            scoreView.setText(R.string.kinda_gnar);
-        else if(gnarness > 0)
-            scoreView.setText(R.string.full_roadie);
+        else if(gnarness > 0){
+            scoreView.setText("Full Roadie");
+            imageView.setImageResource(R.drawable.roadie);
+        }
         else{
             scoreView.setText(R.string.stationary);
             imageView.setImageResource(R.drawable.stationary);
+            mediaPlayer = MediaPlayer.create(this, R.raw.sweetjumps);
+            mediaPlayer.start();
         }
 
 

@@ -6,7 +6,7 @@
     <string name="action_settings" >Settings
     </string>
     <string name="how_gnar">How Gnar Can You Ride?</string>
-    <string name="go">Go!</string>
+    <string name="go">Start</string>
     <string name="recording">Recording ride...</string>
     <string name="fake_accel">Fake Accelerometer</string>
     <string name="end_record">Finish Ride</string>

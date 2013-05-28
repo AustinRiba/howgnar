@@ -3,21 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="60sp"
-        android:text="@string/how_gnar"/>
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go"
-            android:layout_gravity="center" android:layout_marginTop="50dp"
+            android:layout_gravity="center" android:layout_marginTop="300dp"
             android:textSize="60sp"
-            android:onClick="startRecord"/>
+            android:textColor="#000"
+            android:onClick="startRecord"
+            android:alpha="1"
+            android:background="@android:drawable/btn_default"
+            />
 
 </LinearLayout>
+
