@@ -3,15 +3,15 @@
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
 
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
-        <activity android:label="@string/app_name" android:name="com.toxiccode.howgnar.MainActivity">
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.toxiccode.howgnar.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="Recording Ride" android:name="com.toxiccode.howgnar.RecordRideActivity" android:parentActivityName="com.toxiccode.howgnar.MainActivity"/>
-        <activity android:label="Results" android:name="com.toxiccode.howgnar.ResultActivity" android:parentActivityName="com.toxiccode.howgnar.MainActivity"/>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="Recording Ride" android:name="com.toxiccode.howgnar.RecordRideActivity" android:parentActivityName="com.toxiccode.howgnar.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="Results" android:name="com.toxiccode.howgnar.ResultActivity" android:parentActivityName="com.toxiccode.howgnar.MainActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
