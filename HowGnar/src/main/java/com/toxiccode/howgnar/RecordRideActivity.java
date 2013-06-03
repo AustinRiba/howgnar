@@ -40,7 +40,7 @@ public class RecordRideActivity extends Activity implements SensorEventListener 
         startCal = Calendar.getInstance();
         gnars = 0;
         sensorManager=(SensorManager) getSystemService(SENSOR_SERVICE);
-        sensorManager.registerListener(this, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL);
+        sensorManager.registerListener(this, sensorManager.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), SensorManager.SENSOR_DELAY_NORMAL);
 
         setContentView(R.layout.activity_record_ride);
     }
@@ -76,11 +76,11 @@ public class RecordRideActivity extends Activity implements SensorEventListener 
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        if (event.sensor.getType()==Sensor.TYPE_ACCELEROMETER){
+        if (event.sensor.getType()==Sensor.TYPE_LINEAR_ACCELERATION){
             ax=event.values[0];
             ay=event.values[1];
             az=event.values[2];
-            if((ax > 7 && ay > 7) || az > 16 || az < -7){
+            if(ax > 2 || ax < -2 || ay > 2 || ay < -2 || az > 2 || az < -2){
                 System.out.println("===SENSOR=== x: "+ax+" y: "+ ay + "z: " + az);
                 this.gnars++;
                 TextView gnarCount = (TextView)findViewById(R.id.gnar_count);
